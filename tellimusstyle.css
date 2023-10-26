@@ -1,0 +1,116 @@
+* {
+  margin: 20;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+header,
+footer {
+  padding: min(3.5rem, 10vw);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+h1 {
+  font-weight: 400;
+  text-align: center;
+}
+
+
+a {
+  font-size: 1.3rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #00000090;
+  font-size: 1.1rem;
+}
+
+footer {
+  font-size: 1.1rem;
+  background-color: #f1f1f1;
+  font-weight: 400;
+  color: #00000090;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  margin-bottom: 1rem;
+}
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+#nav-links {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 3rem;
+}
+
+#nav-links > .nav-link {
+  text-decoration: none;
+  color: #00000070;
+  font-weight: 400;
+}
+
+#nav-links > .current {
+  color: #000000;
+}
+
+#nav-links > .nav-link:hover {
+  color: #000000;
+}
+
+#social-media-icons {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+}
+
+
+
+#social-media-icons {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+}
+
+.button_position {
+  text-align: CENTER;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  width: 75%;
+}
+
+.button {
+  background-color: #0066ff;
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 40px;
+  height: 50px;
+}
+
+.space{
+  height: 400px;
+}
